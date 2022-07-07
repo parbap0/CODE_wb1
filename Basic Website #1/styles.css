@@ -89,24 +89,39 @@ header {
   justify-content: space-between;
   outline: auto;
   display: flex;
-  margin: 10px;
+  margin: 30px;
 }
 .headings {
   outline: auto;
   display: block;
 }
-.body3{
+.body3 {
   display: grid;
-  grid-template-columns: 1fr 2fr ;
-  margin: 10px;
-
+  grid-template-columns: 1fr 2fr;
+  margin: 40px;
 }
-.grid-item{
-  outline: auto ;
+.grid-item {
+  outline: auto;
   padding: 10px;
 }
-.outline{
+.outline {
   outline: solid white;
-  margin: 0px 10px 0px 10px;;
+  margin: 0px 10px 0px 10px;
   border-radius: 3px;
+}
+.footer {
+  background-color: rgb(37, 35, 35);
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.torque-footer {
+  font-style: italic;
+  font-size: 40px;
+  margin-left: 10px;
+}
+.interests ul {
+  list-style: none;
 }
