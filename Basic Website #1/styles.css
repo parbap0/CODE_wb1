@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+* {
+  box-sizing: border-box;
+}
 body {
-  background-color: black;
+  background-color: rgb(22, 21, 21);
   font-family: "Poppins", sans-serif;
   color: white;
+  margin: 0px;
 }
 
 a {
@@ -20,6 +24,7 @@ header {
 .nav-menu li {
   display: inline-block;
   padding: 0px 10px 0px 10px;
+  border-radius: 3px;
   /* margin: 5px; */
 }
 #logo {
@@ -79,7 +84,7 @@ header {
 
 .body2 img {
   height: auto;
-  width: 400px;
+  width: 50%;
 }
 .code-img {
   width: 600px;
@@ -87,32 +92,48 @@ header {
 }
 .body2 {
   justify-content: space-between;
-  outline: auto;
+  /* outline: auto; */
   display: flex;
   margin: 30px;
 }
 .headings {
-  outline: auto;
+  /* outline: auto; */
   display: block;
 }
+.headings h2 {
+  font-size: 35px;
+}
 .body3 {
+  max-width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin: 40px;
 }
+.odd {
+  /* width: 33%;
+  height: auto; */
+}
+.even {
+  /* width: 67%;
+  height: auto; */
+}
 .grid-item {
-  outline: auto;
+  /* outline: auto; */
   padding: 10px;
 }
 .outline {
-  outline: solid white;
+  /* outline: solid white;
   margin: 0px 10px 0px 10px;
-  border-radius: 3px;
+  border-radius: 3px; */
 }
-.footer {
-  background-color: rgb(37, 35, 35);
+footer {
   margin: 0px;
   padding: 0px;
+}
+.footer {
+  background-color: rgb(31, 30, 30);
+
+  padding: 30px 10px 30px 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -120,8 +141,15 @@ header {
 .torque-footer {
   font-style: italic;
   font-size: 40px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 .interests ul {
   list-style: none;
+  /* margin-left: 0; */
+  padding: 0;
+}
+.hover:hover {
+  background-color: white;
+  color: black;
+  /* transition:; */
 }
