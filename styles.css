@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(22, 21, 21);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+  margin-bottom: 70px;
+  /* align-items: center; */
+}
+.nav-menu li {
+  display: inline-block;
+  padding: 0px 10px 0px 10px;
+  border-radius: 3px;
+  /* margin: 5px; */
+}
+#logo {
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+#strt-cdng {
+  margin: 0px 10px 0px 10px;
+  background: linear-gradient(to right, #00ccff 0%, #0066ff 100%);
+  border-radius: 3px;
+}
+
+.torque {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.torque span {
+  font-style: italic;
+  font-size: 40px;
+  margin-left: 10px;
+  /* font-weight:; */
+}
+.torque img {
+  height: 80px;
+  width: 80px;
+}
+.torque-body {
+  /* margin-top: 100px; */
+  text-align: center;
+  line-height: 35px;
+}
+.rnb-text {
+  /* color: white; */
+  /* background: -o-linear-gradient(to right, #00ccff 0%, #0066ff 100%); */
+  background: linear-gradient(
+    to right,
+    rgb(251, 131, 4) 15%,
+    rgb(201, 27, 56) 35%,
+    blue 50%,
+    rgb(0, 255, 0) 75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rnb-text h1 {
+  margin-bottom: 5px;
+}
+.torque-body h2 {
+  /* margin-top: 0px; */
+}
+.torque-body img {
+  height: 25em;
+}
+
+.body2 img {
+  height: auto;
+  width: 50%;
+}
+.code-img {
+  width: 600px;
+  height: auto;
+}
+.body2 {
+  justify-content: space-between;
+  /* outline: auto; */
+  display: flex;
+  margin: 30px;
+}
+.headings {
+  /* outline: auto; */
+  display: block;
+}
+.headings h2 {
+  font-size: 35px;
+}
+.body3 {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 40px;
+}
+.odd {
+  /* width: 33%;
+  height: auto; */
+}
+.even {
+  /* width: 67%;
+  height: auto; */
+}
+.grid-item {
+  /* outline: auto; */
+  padding: 10px;
+}
+.outline {
+  /* outline: solid white;
+  margin: 0px 10px 0px 10px;
+  border-radius: 3px; */
+}
+footer {
+  margin: 0px;
+  padding: 0px;
+}
+.footer {
+  background-color: rgb(31, 30, 30);
+
+  padding: 30px 10px 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.torque-footer {
+  font-style: italic;
+  font-size: 40px;
+  /* margin-left: 10px; */
+}
+.interests ul {
+  list-style: none;
+  /* margin-left: 0; */
+  padding: 0;
+}
+.hover:hover {
+  background-color: white;
+  color: black;
+  /* transition:; */
+}
